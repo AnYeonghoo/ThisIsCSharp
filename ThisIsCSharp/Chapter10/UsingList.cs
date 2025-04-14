@@ -9,7 +9,7 @@ namespace ThisIsCSharp.Chapter10
 {
     internal class UsingList
     {
-        static void Main()
+        static void MainUsingList()
         {
             ArrayList list = new ArrayList();
             for (int i = 0; i < 5; i++)

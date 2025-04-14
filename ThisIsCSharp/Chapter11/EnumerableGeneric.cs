@@ -33,7 +33,7 @@ namespace ThisIsCSharp.Chapter11
             }
         }
 
-        public int Length;
+        public int Length
         {
             get { return array.Length; }
         }

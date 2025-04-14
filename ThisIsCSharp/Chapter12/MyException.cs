@@ -24,7 +24,7 @@ namespace ThisIsCSharp.Chapter12
     {
         static uint MergeARGB(uint alpha, uint red, uint green, uint blue)
         {
-            uint[] args = new int[] { alpha, red, green, blue };
+            uint[] args = new uint[] { alpha, red, green, blue };
             foreach (uint arg in args)
             {
                 if (arg > 255)
@@ -41,7 +41,7 @@ namespace ThisIsCSharp.Chapter12
                     (green << 8 & 0x0000FF00) |
                     (blue & 0x000000FF);
             }
-
+            return alpha;
         }
         static void MainMyException()
         {
