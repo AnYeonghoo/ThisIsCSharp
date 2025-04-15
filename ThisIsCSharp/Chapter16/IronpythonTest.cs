@@ -8,5 +8,10 @@ namespace ThisIsCSharp.Chapter16
 {
     internal class IronpythonTest
     {
+        static void MainIronpythonTest()
+        {
+
+            
+        }
     }
 }
