@@ -14,7 +14,7 @@ namespace ThisIsCSharp.Chapter14
             Expression const1 = Expression.Constant(1);
             Expression const2 = Expression.Constant(2);
 
-            Expression leftExp = Expression.Multiply(const1, const2 2);
+            Expression leftExp = Expression.Multiply(const1, const2);
 
             Expression param1 =
                 Expression.Parameter(typeof(int));

@@ -20,17 +20,9 @@ namespace ThisIsCSharp.Chapter15
 
             };
 
-            var profiles = arrProfile
-                                .Where(profile => profile.Height < 175)
-                                .OrderBy(profile => profile.Height)
-                                .Select(profile =>
-                                {
-                                    new
-                                    {
-                                        Name = profile.Name,
-                                        InchHeight = profile.Height
-                                    }
-                                });
+        
+
+        
 
 
         }
