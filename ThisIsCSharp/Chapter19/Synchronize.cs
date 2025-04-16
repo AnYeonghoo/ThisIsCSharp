@@ -46,7 +46,7 @@ namespace ThisIsCSharp.Chapter19
     }
     internal class Synchronize
     {
-        static void Main()
+        static void MainSynchronize()
         {
             Counter counter = new();
 
